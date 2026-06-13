@@ -7,6 +7,17 @@ Vanilla Viewmodels is a Datapack Library which adds an "animation controller" fo
 - A Basic Understanding of How Resourcepacks and Datapacks work.
 ```
 ```
+
+# Using Viewmodel?
+## Pros
+- Seamless Item Animations that can be ran per function.
+- Thanks to OBJMC, the models can be extremely High-Resolution.
+
+## Cons
+- The OBJMC shader doesn't work with an IRIS shader on.
+- The Resourcepack Size may bloat due to high res textures exported by objmc
+
+
 # Utility:
 - ## How it works.
   Since objmc only exports model+texture, it should be noted that the datapack adopts certain conventions to make sure that it works as intended. OBJMC, by default, will not "prepare you a datapack/resourcepack" like how plugins like AnimatedJava does. Hence, creating a resourcepack that correctly follows this datapack's convention is CRUCIAL.
