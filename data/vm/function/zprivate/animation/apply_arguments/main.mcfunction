@@ -1,0 +1,3 @@
+execute if data storage vm:storage vm.TEMP.ARGS.id run function vm:zprivate/animation/apply_arguments/id with storage vm:storage vm.TEMP.ARGS
+execute if data storage vm:storage vm.TEMP.ARGS.animation run function vm:zprivate/animation/apply_arguments/animation with storage vm:storage vm.TEMP.ARGS
+execute if data storage vm:storage vm.TEMP.ARGS.frame run function vm:zprivate/animation/apply_arguments/frame with storage vm:storage vm.TEMP.ARGS

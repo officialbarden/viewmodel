@@ -1,0 +1,2 @@
+data modify storage vm:storage vm.TEMP.MACRO.animation_name set from entity @s SelectedItem.components."minecraft:custom_model_data".strings[0]
+data modify storage vm:storage vm.TEMP.MACRO.id set from entity @s SelectedItem.components.minecraft:item_model

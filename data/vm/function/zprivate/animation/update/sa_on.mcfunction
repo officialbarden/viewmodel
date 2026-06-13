@@ -1,0 +1,1 @@
+# execute unless items entity @s weapon.mainhand potion[potion_contents={custom_color:8388607}] run item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:potion_contents":{custom_color:8388607}}}

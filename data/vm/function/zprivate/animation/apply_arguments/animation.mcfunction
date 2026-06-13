@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"minecraft:custom_model_data":{strings:["$(animation)"]}}}
