@@ -31,6 +31,7 @@ Here's how a registry entry's structure looks like:
           "name":"equip",
           "start": 0,
           "end": 30,
+          "duration": 27,
           keyframe_functions: [
             { at: 0, function_file: 'test:equip' },       // Run a function file @ 0th keyframe.
             { at: 30, function_file: 'test:end_animation' },
@@ -41,6 +42,7 @@ Here's how a registry entry's structure looks like:
           "name": "shoot1",
           "start": 0,
           "end": 8,
+          "duration": 6,
           "keyframe_functions": [
               { at: 0, function_file: 'gun:shoot' }
           ]
@@ -48,7 +50,7 @@ Here's how a registry entry's structure looks like:
   ]
 }
 ```
-
+To register an animation that loops infinitely, set the "end" value to -1
 
 - ## Playing an Animation
 to play an Animation, run the command:
